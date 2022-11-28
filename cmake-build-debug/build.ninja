@@ -192,6 +192,161 @@ build Task5: CXX_EXECUTABLE_LINKER__Task5_Debug CMakeFiles/Task5.dir/2021V/Task5
   TARGET_FILE = Task5
   TARGET_PDB = Task5.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Task1-2021H
+
+
+#############################################
+# Order-only phony target for Task1-2021H
+
+build cmake_object_order_depends_target_Task1-2021H: phony || CMakeFiles/Task1-2021H.dir
+
+build CMakeFiles/Task1-2021H.dir/2021H/Task1-2021H.cpp.o: CXX_COMPILER__Task1-2021H_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021H/Task1-2021H.cpp || cmake_object_order_depends_target_Task1-2021H
+  DEP_FILE = CMakeFiles/Task1-2021H.dir/2021H/Task1-2021H.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task1-2021H.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task1-2021H.dir/2021H
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task1-2021H
+
+
+#############################################
+# Link the executable Task1-2021H
+
+build Task1-2021H: CXX_EXECUTABLE_LINKER__Task1-2021H_Debug CMakeFiles/Task1-2021H.dir/2021H/Task1-2021H.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task1-2021H.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task1-2021H
+  TARGET_PDB = Task1-2021H.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task2-2021H
+
+
+#############################################
+# Order-only phony target for Task2-2021H
+
+build cmake_object_order_depends_target_Task2-2021H: phony || CMakeFiles/Task2-2021H.dir
+
+build CMakeFiles/Task2-2021H.dir/2021H/Task2-2021H.cpp.o: CXX_COMPILER__Task2-2021H_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021H/Task2-2021H.cpp || cmake_object_order_depends_target_Task2-2021H
+  DEP_FILE = CMakeFiles/Task2-2021H.dir/2021H/Task2-2021H.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task2-2021H.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task2-2021H.dir/2021H
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task2-2021H
+
+
+#############################################
+# Link the executable Task2-2021H
+
+build Task2-2021H: CXX_EXECUTABLE_LINKER__Task2-2021H_Debug CMakeFiles/Task2-2021H.dir/2021H/Task2-2021H.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task2-2021H.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task2-2021H
+  TARGET_PDB = Task2-2021H.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task3-2021H
+
+
+#############################################
+# Order-only phony target for Task3-2021H
+
+build cmake_object_order_depends_target_Task3-2021H: phony || CMakeFiles/Task3-2021H.dir
+
+build CMakeFiles/Task3-2021H.dir/2021H/Task3-2021H.cpp.o: CXX_COMPILER__Task3-2021H_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021H/Task3-2021H.cpp || cmake_object_order_depends_target_Task3-2021H
+  DEP_FILE = CMakeFiles/Task3-2021H.dir/2021H/Task3-2021H.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task3-2021H.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task3-2021H.dir/2021H
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task3-2021H
+
+
+#############################################
+# Link the executable Task3-2021H
+
+build Task3-2021H: CXX_EXECUTABLE_LINKER__Task3-2021H_Debug CMakeFiles/Task3-2021H.dir/2021H/Task3-2021H.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task3-2021H.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task3-2021H
+  TARGET_PDB = Task3-2021H.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task4-2021H
+
+
+#############################################
+# Order-only phony target for Task4-2021H
+
+build cmake_object_order_depends_target_Task4-2021H: phony || CMakeFiles/Task4-2021H.dir
+
+build CMakeFiles/Task4-2021H.dir/2021H/Task4-2021H.cpp.o: CXX_COMPILER__Task4-2021H_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021H/Task4-2021H.cpp || cmake_object_order_depends_target_Task4-2021H
+  DEP_FILE = CMakeFiles/Task4-2021H.dir/2021H/Task4-2021H.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task4-2021H.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task4-2021H.dir/2021H
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task4-2021H
+
+
+#############################################
+# Link the executable Task4-2021H
+
+build Task4-2021H: CXX_EXECUTABLE_LINKER__Task4-2021H_Debug CMakeFiles/Task4-2021H.dir/2021H/Task4-2021H.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task4-2021H.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task4-2021H
+  TARGET_PDB = Task4-2021H.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task5-2021H
+
+
+#############################################
+# Order-only phony target for Task5-2021H
+
+build cmake_object_order_depends_target_Task5-2021H: phony || CMakeFiles/Task5-2021H.dir
+
+build CMakeFiles/Task5-2021H.dir/2021H/Task5-2021H.cpp.o: CXX_COMPILER__Task5-2021H_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021H/Task5-2021H.cpp || cmake_object_order_depends_target_Task5-2021H
+  DEP_FILE = CMakeFiles/Task5-2021H.dir/2021H/Task5-2021H.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task5-2021H.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task5-2021H.dir/2021H
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task5-2021H
+
+
+#############################################
+# Link the executable Task5-2021H
+
+build Task5-2021H: CXX_EXECUTABLE_LINKER__Task5-2021H_Debug CMakeFiles/Task5-2021H.dir/2021H/Task5-2021H.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task5-2021H.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task5-2021H
+  TARGET_PDB = Task5-2021H.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -226,7 +381,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug
 
-build all: phony Task1 Task2 Task3 Task4 Task5
+build all: phony Task1 Task2 Task3 Task4 Task5 Task1-2021H Task2-2021H Task3-2021H Task4-2021H Task5-2021H
 
 # =============================================================================
 # Built-in targets

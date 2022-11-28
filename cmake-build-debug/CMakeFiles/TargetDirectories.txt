@@ -3,5 +3,10 @@
 /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/Task3.dir
 /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/Task4.dir
 /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/Task5.dir
+/Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/Task1-2021H.dir
+/Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/Task2-2021H.dir
+/Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/Task3-2021H.dir
+/Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/Task4-2021H.dir
+/Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/Task5-2021H.dir
 /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
