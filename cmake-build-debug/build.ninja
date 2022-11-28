@@ -1,0 +1,263 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: INFT2503PreviousEXAMS
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Task1
+
+
+#############################################
+# Order-only phony target for Task1
+
+build cmake_object_order_depends_target_Task1: phony || CMakeFiles/Task1.dir
+
+build CMakeFiles/Task1.dir/2021V/Task1.cpp.o: CXX_COMPILER__Task1_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021V/Task1.cpp || cmake_object_order_depends_target_Task1
+  DEP_FILE = CMakeFiles/Task1.dir/2021V/Task1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task1.dir/2021V
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task1
+
+
+#############################################
+# Link the executable Task1
+
+build Task1: CXX_EXECUTABLE_LINKER__Task1_Debug CMakeFiles/Task1.dir/2021V/Task1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task1
+  TARGET_PDB = Task1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task2
+
+
+#############################################
+# Order-only phony target for Task2
+
+build cmake_object_order_depends_target_Task2: phony || CMakeFiles/Task2.dir
+
+build CMakeFiles/Task2.dir/2021V/Task2.cpp.o: CXX_COMPILER__Task2_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021V/Task2.cpp || cmake_object_order_depends_target_Task2
+  DEP_FILE = CMakeFiles/Task2.dir/2021V/Task2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task2.dir/2021V
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task2
+
+
+#############################################
+# Link the executable Task2
+
+build Task2: CXX_EXECUTABLE_LINKER__Task2_Debug CMakeFiles/Task2.dir/2021V/Task2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task2
+  TARGET_PDB = Task2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task3
+
+
+#############################################
+# Order-only phony target for Task3
+
+build cmake_object_order_depends_target_Task3: phony || CMakeFiles/Task3.dir
+
+build CMakeFiles/Task3.dir/2021V/Task3.cpp.o: CXX_COMPILER__Task3_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021V/Task3.cpp || cmake_object_order_depends_target_Task3
+  DEP_FILE = CMakeFiles/Task3.dir/2021V/Task3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task3.dir/2021V
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task3
+
+
+#############################################
+# Link the executable Task3
+
+build Task3: CXX_EXECUTABLE_LINKER__Task3_Debug CMakeFiles/Task3.dir/2021V/Task3.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task3
+  TARGET_PDB = Task3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task4
+
+
+#############################################
+# Order-only phony target for Task4
+
+build cmake_object_order_depends_target_Task4: phony || CMakeFiles/Task4.dir
+
+build CMakeFiles/Task4.dir/2021V/Task4.cpp.o: CXX_COMPILER__Task4_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021V/Task4.cpp || cmake_object_order_depends_target_Task4
+  DEP_FILE = CMakeFiles/Task4.dir/2021V/Task4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task4.dir/2021V
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task4
+
+
+#############################################
+# Link the executable Task4
+
+build Task4: CXX_EXECUTABLE_LINKER__Task4_Debug CMakeFiles/Task4.dir/2021V/Task4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task4
+  TARGET_PDB = Task4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task5
+
+
+#############################################
+# Order-only phony target for Task5
+
+build cmake_object_order_depends_target_Task5: phony || CMakeFiles/Task5.dir
+
+build CMakeFiles/Task5.dir/2021V/Task5.cpp.o: CXX_COMPILER__Task5_Debug /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/2021V/Task5.cpp || cmake_object_order_depends_target_Task5
+  DEP_FILE = CMakeFiles/Task5.dir/2021V/Task5.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Task5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task5.dir/2021V
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task5
+
+
+#############################################
+# Link the executable Task5
+
+build Task5: CXX_EXECUTABLE_LINKER__Task5_Debug CMakeFiles/Task5.dir/2021V/Task5.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/Task5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task5
+  TARGET_PDB = Task5.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS -B/Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/objonte/KODELODE/INFT2503/INFT2503PreviousEXAMS/cmake-build-debug
+
+build all: phony Task1 Task2 Task3 Task4 Task5
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
