@@ -43,6 +43,7 @@ public:
 
 int main(){
     //TASK 4
+    cout << "TASK4: " << endl;
     Distance<Meter> meters(2);
     meters += 3;
     Distance<Kilometer> kilometers(2);

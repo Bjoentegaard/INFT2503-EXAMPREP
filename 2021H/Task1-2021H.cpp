@@ -22,6 +22,7 @@ bool starts_with(const string &str, const char *test) noexcept {
 
 int main(){
     //TASK 1
+    cout << "TASK1: " << endl;
     cout << starts_with("", "") << endl;
     cout << starts_with(string(""), "") << endl;
     cout << starts_with("This is a test", "This") << endl;

@@ -40,6 +40,7 @@ int operator | (const std::vector<int> &input, const Reduce &reduce){
 
 int main(){
     //TASK 5
+    cout << "TASK 5: " << endl;
     vector<int> vec = {1, 2, 3};
     cout << *(vec | Find([](int value) { return value > 1; })) << endl;
     cout << (vec | Find([](int value) { return value == 5; })) << endl;

@@ -44,6 +44,7 @@ public:
 
 int main(){
 
+    cout << "TASK3: " << endl;
     Chess chess;
     chess.on_victory.emplace_back([](Chess::Player winner) {
         cout << Chess::player_name(winner) << " won" << endl;

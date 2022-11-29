@@ -49,6 +49,7 @@ public:
 
 int main(){
     //Task 2
+    cout << "TASK2: " << endl;
     Farm farm;
     farm.add_animal("chicken");
     farm.add_animal("chicken");
